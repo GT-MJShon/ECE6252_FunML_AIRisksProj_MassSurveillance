@@ -1,0 +1,55 @@
+{
+  "train_conditions": [
+    "ChallengeFree"
+  ],
+  "eval_conditions": [
+    "ChallengeFree",
+    "Darkening-5",
+    "CodecError-5"
+  ],
+  "classes": [
+    "1",
+    "10",
+    "12",
+    "13",
+    "14",
+    "2",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+  ],
+  "n_train": 14395,
+  "n_val": 1599,
+  "n_eval_total": 10002,
+  "per_condition": {
+    "ChallengeFree": {
+      "n": 3334,
+      "loss": 1.6256077434679477,
+      "accuracy": 0.7681463707258548,
+      "macro_f1": 0.6222950464796869,
+      "balanced_accuracy": 0.6176741121859214,
+      "mean_fpr": 0.030328785890124665,
+      "mean_fnr": 0.3823258878140787
+    },
+    "Darkening-5": {
+      "n": 3334,
+      "loss": 7.9252531690862495,
+      "accuracy": 0.35842831433713257,
+      "macro_f1": 0.04797366466609125,
+      "balanced_accuracy": 0.09090909090909091,
+      "mean_fpr": 0.09090909090909091,
+      "mean_fnr": 0.9090909090909091
+    },
+    "CodecError-5": {
+      "n": 3334,
+      "loss": 2.788909639222363,
+      "accuracy": 0.45140971805638874,
+      "macro_f1": 0.2645796592460925,
+      "balanced_accuracy": 0.3007097705613288,
+      "mean_fpr": 0.06120394626414171,
+      "mean_fnr": 0.6992902294386713
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "exp1_conditions": [
+    "IID cam1",
+    "Cross-view cam1\u2192cam2",
+    "Cross-view cam2\u2192cam1"
+  ],
+  "exp2_conditions": [
+    "clean_iid",
+    "stress_cross_view",
+    "ChallengeFree",
+    "Darkening-5",
+    "CodecError-5"
+  ],
+  "exp3_systems": [
+    "CURE Darkening-5",
+    "DARai cross-view"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "device": "cuda",
+  "darai": {
+    "clean_iid": {
+      "loss": 0.08030758371372697,
+      "accuracy": 0.9520891364902507,
+      "macro_f1": 0.6768976057055527,
+      "balanced_accuracy": 0.6936868686868687,
+      "mean_fnr_macro": 0.3063131313131313,
+      "mean_fpr_macro": 0.018613049438358637
+    },
+    "stress_cross_view": {
+      "loss": 2.2507423868418406,
+      "accuracy": 0.8027855153203343,
+      "macro_f1": 0.2968685620107128,
+      "balanced_accuracy": 0.3333333333333333,
+      "mean_fnr_macro": 0.6666666666666666,
+      "mean_fpr_macro": 0.3333333333333333
+    },
+    "disparity": {
+      "accuracy_drop": 0.14930362116991647,
+      "balanced_accuracy_drop": 0.36035353535353537,
+      "macro_f1_drop": 0.38002904369483986,
+      "mean_fnr_macro_increase": 0.3603535353535353,
+      "mean_fpr_macro_increase": 0.3147202838949747
+    }
+  },
+  "cure_tsr": {
+    "clean": {
+      "ChallengeFree": {
+        "loss": 1.5849696107571356,
+        "accuracy": 0.7681463707258548,
+        "macro_f1": 0.6222950464796869,
+        "balanced_accuracy": 0.6176741121859214,
+        "mean_fnr_macro": 0.3823258878140787,
+        "mean_fpr_macro": 0.030328785890124665
+      }
+    },
+    "stress": {
+      "Darkening-5": {
+        "loss": 7.918388553850182,
+        "accuracy": 0.35842831433713257,
+        "macro_f1": 0.04797366466609125,
+        "balanced_accuracy": 0.09090909090909091,
+        "mean_fnr_macro": 0.9090909090909091,
+        "mean_fpr_macro": 0.09090909090909091,
+        "accuracy_drop_vs_clean": 0.4097180563887222,
+        "balanced_accuracy_drop_vs_clean": 0.5267650212768304,
+        "macro_f1_drop_vs_clean": 0.5743213818135957,
+        "mean_fnr_macro_increase_vs_clean": 0.5267650212768303,
+        "mean_fpr_macro_increase_vs_clean": 0.060580305018966246
+      },
+      "CodecError-5": {
+        "loss": 2.7723784609762006,
+        "accuracy": 0.45140971805638874,
+        "macro_f1": 0.2645796592460925,
+        "balanced_accuracy": 0.3007097705613288,
+        "mean_fnr_macro": 0.6992902294386713,
+        "mean_fpr_macro": 0.06120394626414171,
+        "accuracy_drop_vs_clean": 0.31673665266946605,
+        "balanced_accuracy_drop_vs_clean": 0.3169643416245926,
+        "macro_f1_drop_vs_clean": 0.3577153872335944,
+        "mean_fnr_macro_increase_vs_clean": 0.3169643416245925,
+        "mean_fpr_macro_increase_vs_clean": 0.030875160374017045
+      }
+    },
+    "manifest_csv": "/home/hice1/mshon6/scratch/ECE6252_project/exp2/cure_eval_manifest.csv"
+  }
+}

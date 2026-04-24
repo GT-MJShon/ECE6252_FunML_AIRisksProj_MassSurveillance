@@ -1,0 +1,21 @@
+Exp 1 DARai RGB baseline
+
+IID:
+accuracy = 0.9520891364902507
+macro_f1 = 0.6768976057055527
+balanced_accuracy = 0.6936868686868687
+
+Cross-view (camera_1 -> camera_2):
+accuracy = 0.8027855153203343
+macro_f1 = 0.2968685620107128
+balanced_accuracy = 0.3333333333333333
+
+IID per-class:
+Making pancake: precision=1.0 recall=1.0 f1=1.0
+Reading: precision=0.7617647058823529 recall=0.9810606060606061 f1=0.8576158940397351
+Working on a computer: precision=0.6428571428571429 recall=0.1 f1=0.17307692307692307
+
+Cross-view per-class:
+Making pancake: precision=0.8027855153203343 recall=1.0 f1=0.8906056860321384
+Reading: precision=0.0 recall=0.0 f1=0.0
+Working on a computer: precision=0.0 recall=0.0 f1=0.0
